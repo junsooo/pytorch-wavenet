@@ -132,7 +132,7 @@ class WaveNetModel(nn.Module):
 
             #            |----------------------------------------|     *residual*
             #            |                                        |
-            #            |	  |-- conv -- tanh --|			      |
+            #            |    |-- conv -- tanh --|                |
             # -> dilate -|----|                  * ----|-- 1x1 -- + -->	*input*
             #                 |-- conv -- sigm --|     |
             #                                         1x1
